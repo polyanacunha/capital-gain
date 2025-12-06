@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Application/CapitalGains.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Application/CapitalGains.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Application/CapitalGains.Application.csproj",
+        "projectName": "CapitalGains.Application",
+        "projectPath": "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Application/CapitalGains.Application.csproj",
+        "packagesPath": "/Users/getronics/.nuget/packages/",
+        "outputPath": "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/getronics/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Domain/CapitalGains.Domain.csproj": {
+                "projectPath": "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Domain/CapitalGains.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Domain/CapitalGains.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Domain/CapitalGains.Domain.csproj",
+        "projectName": "CapitalGains.Domain",
+        "projectPath": "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Domain/CapitalGains.Domain.csproj",
+        "packagesPath": "/Users/getronics/.nuget/packages/",
+        "outputPath": "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/getronics/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
