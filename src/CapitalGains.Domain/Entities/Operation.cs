@@ -1,4 +1,4 @@
-namespace CapitalGains.Domain.Trading;
+namespace CapitalGains.Domain.Entities;
 
 public sealed class Operation
 {

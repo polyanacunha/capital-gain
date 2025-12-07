@@ -41,7 +41,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CapitalGains.Application >= 1.0.0"
+      "CapitalGains.Application >= 1.0.0",
+      "CapitalGains.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -71,6 +72,9 @@
           "projectReferences": {
             "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Application/CapitalGains.Application.csproj": {
               "projectPath": "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Application/CapitalGains.Application.csproj"
+            },
+            "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Domain/CapitalGains.Domain.csproj": {
+              "projectPath": "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Domain/CapitalGains.Domain.csproj"
             }
           }
         }

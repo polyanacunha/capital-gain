@@ -91,6 +91,9 @@
             "projectReferences": {
               "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Application/CapitalGains.Application.csproj": {
                 "projectPath": "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Application/CapitalGains.Application.csproj"
+              },
+              "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Domain/CapitalGains.Domain.csproj": {
+                "projectPath": "/Users/getronics/git-personal/capital-gain/src/CapitalGains.Domain/CapitalGains.Domain.csproj"
               }
             }
           }
