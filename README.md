@@ -55,6 +55,11 @@ examples/
   input.txt
   expected-output.txt
 
+Diagramas
+- Arquitetura (Design): [docs/diagrams/design-diagram.png](docs/diagrams/design-diagram.png)
+- Sequência: [docs/diagrams/sequence-diagram.png](docs/diagrams/sequence-diagram.png)
+- Atividade: [docs/diagrams/activity-diagram.png](docs/diagrams/activity-diagram.png)
+
 Docker (opcional)
 Build da imagem:
 docker build -t capital-gains-cli .
