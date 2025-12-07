@@ -27,8 +27,10 @@ public class SmokeCliTests
 
 		var lines = writer.ToString().Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);
 		lines.Should().HaveCount(2);
-		lines[0].Should().Be("""[{"tax":0},{"tax":0},{"tax":0}]""");
-		lines[1].Should().Be("""[{"tax":0},{"tax":10000},{"tax":0}]""");
+		var first = JsonSerializer.Deserialize<List<TaxResultDto>>(lines[0], jsonOptions)!;
+		var second = JsonSerializer.Deserialize<List<TaxResultDto>>(lines[1], jsonOptions)!;
+		first.Select(x => x.Tax).Should().Equal(new[] { 0m, 0m, 0m });
+		second.Select(x => x.Tax).Should().Equal(new[] { 0m, 10000m, 0m });
 	}
 }
 

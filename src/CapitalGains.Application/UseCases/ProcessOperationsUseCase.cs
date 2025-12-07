@@ -1,7 +1,7 @@
 using CapitalGains.Application.Dtos;
 using CapitalGains.Application.Mappers;
 using CapitalGains.Domain.Entities;
-using CapitalGains.Domain.Services;
+using CapitalGains.Domain.Interfaces;
 
 namespace CapitalGains.Application.UseCases;
 

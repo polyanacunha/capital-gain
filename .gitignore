@@ -1,0 +1,53 @@
+# Build artifacts
+bin/
+obj/
+out/
+artifacts/
+publish/
+
+# Test artifacts
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+.coverage/
+BenchmarkDotNet.Artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# IDE / Editor
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.sln.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Node (for optional demo)
+node_modules/
+
+# Docker/Runtime misc
+*.pid
+
+# Local archives/exports
+capital-gains.zip
+
+

@@ -1,6 +1,6 @@
 using CapitalGains.Domain.Entities;
 
-namespace CapitalGains.Domain.Services;
+namespace CapitalGains.Domain.Interfaces;
 
 public interface ICapitalGainsCalculator
 {

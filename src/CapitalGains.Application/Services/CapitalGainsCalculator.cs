@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 using CapitalGains.Domain.Entities;
-using CapitalGains.Domain.Services;
+using CapitalGains.Domain.Interfaces;
 
 namespace CapitalGains.Application.Services;
 
